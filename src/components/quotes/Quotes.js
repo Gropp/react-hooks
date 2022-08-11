@@ -12,11 +12,14 @@ export const Quotes = ({ quote, speaker, onUpdate = () => {} }) => {
   );
 };
 
+// esta adicionando uma propriedade type para o objeto, para garantir que eles receberam os tipos corretos de dados
 Quotes.propTypes = {
   quote: string,
   speaker: string,
   onUpdate: func
 };
+
+// styled-components
 
 const Wrapper = styled.div`
   flex: 1;

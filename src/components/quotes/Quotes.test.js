@@ -24,6 +24,7 @@ test('calls a callback when button is pressed', () => {
 
   const buttonEl = screen.getByRole('button');
 
+  // funcao bot que simula acoes do usuario - neste caso ela clica no botao
   fireEvent.click(buttonEl);
   expect(callback).toHaveBeenCalledTimes(1);
 });

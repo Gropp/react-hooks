@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.js": "/Gropp/react-hooks/static/js/main.20289577.js",
+    "static/media/naruto.png": "/Gropp/react-hooks/static/media/naruto.e946176fed188ae3aa9c.png",
+    "static/media/bg.jpeg": "/Gropp/react-hooks/static/media/bg.bf18c80c8e4f7152504c.jpeg",
+    "static/media/jutso.mp3": "/Gropp/react-hooks/static/media/jutso.eb250a48122eb745dfea.mp3",
+    "index.html": "/Gropp/react-hooks/index.html",
+    "main.20289577.js.map": "/Gropp/react-hooks/static/js/main.20289577.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.20289577.js"
+  ]
+}
