@@ -2,7 +2,6 @@ import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import { render, screen, fireEvent } from '@testing-library/react';
 import { App } from './App';
-import { env } from 'process';
 
 const response = { speaker: 'test speaker', quote: 'test quote' };
 
@@ -28,7 +27,7 @@ test('renders a button and naruto image', () => {
 
 test('calls api on startup and renders it response', async () => {
   render(<App />);
-
+  // o findByText é assincrono, sempre fica procurando
   const quoteEl = await screen.findByText(/test quote/i);
 
   expect(quoteEl).toBeInTheDocument();
